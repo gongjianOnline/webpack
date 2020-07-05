@@ -4,11 +4,11 @@ import "./z.styl"
 import png from "./assets/1.jpg"
 
 const div = document.getElementById("app")
-console.log(div)
-console.log(png)
-div.innerHTML = `
-    <img src="${png}">
-`;
+// console.log(div)
+// console.log(png)
+// div.innerHTML = `
+//     <img src="${png}">
+// `;
 const button = document.createElement("button")
 button.innerText="懒加载"
 button.onclick=()=>{
